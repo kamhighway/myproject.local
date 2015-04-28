@@ -1,0 +1,4 @@
+mcm_manager:
+    resource: "@MCMManagerBundle/Resources/config/routing.yml"
+    prefix:   /
+

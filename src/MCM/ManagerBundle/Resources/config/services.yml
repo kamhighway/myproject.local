@@ -1,0 +1,7 @@
+parameters:
+#    mcm_manager.example.class: MCM\ManagerBundle\Example
+
+services:
+#    mcm_manager.example:
+#        class: %mcm_manager.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

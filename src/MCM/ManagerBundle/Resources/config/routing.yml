@@ -1,0 +1,28 @@
+mcm_manager_homepage:
+    path:     /
+    defaults: { _controller: MCMManagerBundle:Default:index }
+    
+homepage:
+    path:   /
+    defaults: { _controller: MCMManagerBundle:Default:index }
+    
+contact:
+    path:     /contact
+    defaults: { _controller: MCMManagerBundle:Default:contact }
+
+contactlist:
+    path:     /contactlist
+    defaults: { _controller: MCMManagerBundle:Default:contactlist }
+    
+user:
+    path:    /user
+    defaults:  { _controller: MCMManagerBundle:Default:user } 
+    
+managerlist:
+    path:     /managerlist
+    defaults: { _controller: MCMManagerBundle:Default:managerlist }
+    
+manager:
+    path:     /manager/{managerkey}
+    defaults: { _controller: MCMManagerBundle:Default:manager, managerkey: '000507004b4fb5bfc0a80132' }
+    
